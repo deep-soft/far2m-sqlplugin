@@ -1,0 +1,6 @@
+[submodule "vendor/far2l"]
+	path = vendor/far2l
+	url = https://github.com/VPROFi/far2l.git
+[submodule "vendor/far2m"]
+	path = vendor/far2m
+	url = https://github.com/deep-soft/far2m
