@@ -50,7 +50,7 @@ if (ARM AND CMAKE_COMPILER_IS_GNUCC)
 endif ()
 
 add_library(${PROJECT_NAME} MODULE ${SOURCES})
-target_link_libraries(${PROJECT_NAME} utils far)
+target_link_libraries(${PROJECT_NAME} utils far2m)
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE -DUSEUCD=OFF -DWINPORT_DIRECT -DUNICODE -DFAR_DONT_USE_INTERNALS)
 
