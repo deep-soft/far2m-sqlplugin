@@ -12,9 +12,9 @@ The plugin allows (linux and macos):
 Based on SQLiteDB plug-in for FAR 3.0 Copyright (C) 2010-2014 by Artem Senichev
 Use sqlite3 engine https://www.sqlite.org/
 
-Build instruction like far2l (https://github.com/VPROFi/far2l)
+Build instruction like far2m (https://github.com/VPROFi/far2m)
 
-If your want build inside other version far2l - put content ./src into ./far2l/sqlplugin and add to ./far2l/CMakeLists.txt add_subdirectory (sqlplugin)
+If your want build inside other version far2m - put content ./src into ./far2m/sqlplugin and add to ./far2m/CMakeLists.txt add_subdirectory (sqlplugin)
 
 ![](img/1.png)
 ![](img/2.png)

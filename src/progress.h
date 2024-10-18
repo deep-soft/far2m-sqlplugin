@@ -2,7 +2,7 @@
 #define __PROGRESS_H__
 
 /**************************************************************************
- *  SQLiteDB plug-in for FAR 3.0 modifed by VPROFi 2023 for far2l         *
+ *  SQLiteDB plug-in for FAR 3.0 modifed by VPROFi 2023 for far2m         *
  *  Copyright (C) 2010-2014 by Artem Senichev <artemsen@gmail.com>        *
  *  https://sourceforge.net/projects/farplugs/                            *
  *                                                                        *

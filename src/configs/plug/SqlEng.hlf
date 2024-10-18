@@ -27,5 +27,5 @@ $^#Panel SQL: Configuration#
     Allows, prohibits the output of logs to a file (set file path).
 
   #Save configuration to file#
-    Saves the configuration to a file ($HOME/.config/far2l/plugins/sqlplugin/config.ini), additionally allows you to manually fine-tune the columns (width, display names, etc.).
+    Saves the configuration to a file ($HOME/.config/far2m/plugins/sqlplugin/config.ini), additionally allows you to manually fine-tune the columns (width, display names, etc.).
 

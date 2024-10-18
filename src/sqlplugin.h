@@ -27,7 +27,7 @@ class SqlPlugin : public Plugin {
 		explicit SqlPlugin(const PluginStartupInfo * info);
 		virtual ~SqlPlugin() override;
 
-		// far2l api
+		// far2m api
 		HANDLE OpenFilePlugin(const wchar_t * name,const unsigned char * data, int dataSize, int opMode) override;
 		HANDLE OpenPlugin(int openFrom, INT_PTR item) override;
 		void ClosePlugin(HANDLE hPlugin) override;

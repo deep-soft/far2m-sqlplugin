@@ -24,7 +24,7 @@ class Plugin {
 		explicit Plugin(const PluginStartupInfo * info);
 		virtual ~Plugin();
 
-		// far2l backconnect
+		// far2m backconnect
 		static struct PluginStartupInfo psi;
 		static struct FarStandardFunctions FSF;
 
@@ -33,7 +33,7 @@ class Plugin {
 		virtual HANDLE OpenPlugin(int openFrom, INT_PTR item) = 0;
 		virtual void ClosePlugin(HANDLE hPlugin) = 0;
 	
-		// far2l api
+		// far2m api
 		virtual int GetFindData(HANDLE hPlugin, struct PluginPanelItem **pPanelItem, int *pItemsNumber);
 		virtual void FreeFindData(HANDLE hPlugin, struct PluginPanelItem * PanelItem, int ItemsNumber);
 		virtual void GetPluginInfo(struct PluginInfo *info);

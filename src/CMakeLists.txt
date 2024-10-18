@@ -50,15 +50,15 @@ if (ARM AND CMAKE_COMPILER_IS_GNUCC)
 endif ()
 
 add_library(${PROJECT_NAME} MODULE ${SOURCES})
-target_link_libraries(${PROJECT_NAME} utils far2l)
+target_link_libraries(${PROJECT_NAME} utils far2m)
 
 target_compile_definitions(${PROJECT_NAME} PRIVATE -DUSEUCD=OFF -DWINPORT_DIRECT -DUNICODE -DFAR_DONT_USE_INTERNALS)
 
 target_include_directories(${PROJECT_NAME} PRIVATE .)
 target_include_directories(${PROJECT_NAME} PRIVATE ./sqlite)
 target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/utils/include)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/far2l/far2sdk)
-target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/far2l/Include)
+target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/far2m/far2sdk)
+target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/far2m/Include)
 target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCE_DIR}/WinPort)
 
 set_target_properties(sqlplugin
